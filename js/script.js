@@ -23,7 +23,7 @@ btn.addEventListener("click", function() {
 
 function mobileViewport(mobile) {
     if (mobile.matches) { // If media query matches
-        logo.setAttribute("src", "images/ignaz-logo-blue.png")
+        logo.setAttribute("src", "images/ignaz-logo.png")
         return true;
     }
 }
@@ -40,7 +40,7 @@ $(window).scroll(function() {
         }   
     }
     else {
-        logo.setAttribute("src", "images/ignaz-logo-blue.png")
+        logo.setAttribute("src", "images/ignaz-logo.png")
     }
     
 })

@@ -10,7 +10,7 @@
 }
 .navbar-custom .navbar-brand.logo-text {
 	font: 600 2rem/1.5rem "Raleway", sans-serif;
-	color: #393939;
+	color: #464646;
 	text-decoration: none;
 }
 
@@ -21,14 +21,14 @@
 
 .navbar-custom .nav-item .nav-link {
 	padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-	color: #393939;
+	color: #464646;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color: #00bfd8;
+	color: #61b6fc;
 }
 
 /* Dropdown Menu */
@@ -60,7 +60,7 @@
 }
 
 .navbar-custom .dropdown-item {
-	color: #393939;
+	color: #464646;
 	text-decoration: none;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
-	color: #00bfd8;
+	color: #61b6fc;
 }
 
 .navbar-custom .dropdown-items-divide-hr {
@@ -92,7 +92,7 @@
 
 .navbar-custom .navbar-toggler {
 	border: none;
-	color: #393939;
+	color: #464646;
 	font-size: 2rem;
 }
 
@@ -156,7 +156,7 @@
 	
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #00bfd8;
+		color: #61b6fc;
 	}
 
 	.navbar-custom .dropdown-menu {
@@ -192,7 +192,7 @@
 	}
 	
 	.navbar-custom .fa-stack-2x {
-		color: #00bfd8;
+		color: #61b6fc;
 		transition: all 0.2s ease;
 	}
 	
@@ -206,11 +206,11 @@
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-1x {
-		color: #00bfd8;
+		color: #61b6fc;
 	}
 
 	.navbar-custom.top-nav-collapse .fa-stack-2x {
-		color: #00bfd8;
+		color: #61b6fc;
 	}
 	
 	.navbar-custom.top-nav-collapse .fa-stack-1x {
