@@ -446,6 +446,10 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 20%;
 }
 
+.intro span {
+  color: #00A6EB;
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -679,15 +683,14 @@ section {
 --------------------------------------------------------------*/
 #profile {
   position: relative;
-  background-image: url('../img/bg-profile.jpg');
-  background-size: cover;
+  background-image: url('../img/hero-bg.png');
 }
 
 .profile-card {
   margin: 0px auto;
   padding: 30px;
-  max-width: 575px;
-  height: 750px;
+  max-width: 600px;
+  height: 600px;
   text-align: center;
   transition: all ease-in-out 0.3s;
   background: #fff;
@@ -700,6 +703,7 @@ section {
 }
 
 .profile-card p {
+  font-size: 15px;
   text-align: justify;
 }
 .profile-card h1 {
@@ -810,6 +814,11 @@ section {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+.resume .resume-item p {
+  font-size: 15px;
+  text-align: justify;
 }
 
 .resume .resume-item ul {
@@ -1363,6 +1372,7 @@ section {
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
+  border-top: 4px solid #00A6EB;
 }
 #footer .footer-top {
   background: #151515;
