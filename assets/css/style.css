@@ -774,6 +774,7 @@ section {
 --------------------------------------------------------------*/
 #resume {
   position: relative;
+  text-align: justify;
 }
 .resume .resume-title {
   font-size: 26px;
